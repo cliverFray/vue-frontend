@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-6">
     <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 flex flex-col items-center justify-center text-center">
-      <h1 class="text-4xl font-extrabold text-gray-900 mb-4 tracking-tight">Bienvenido a <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">FS Store</span></h1>
+      <h1 class="text-4xl font-extrabold text-gray-900 mb-4 tracking-tight">Bienvenido a <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Cliver Store</span></h1>
       <p class="text-lg text-gray-500 max-w-2xl">Gestione sus productos y categorías con una interfaz moderna y rápida.</p>
     </div>
 
@@ -13,9 +13,9 @@
           </div>
           <h2 class="text-2xl font-bold text-gray-800">Productos</h2>
         </div>
-        <p class="text-gray-600 mb-6">Administre el inventario completo, precios y stock disponible de todos los artículos de la tienda.</p>
+        <p class="text-gray-600 mb-6">Administrar productos</p>
         <router-link to="/products" class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-primary hover:bg-blue-700 transition-colors">
-          Gestionar Productos
+          Ir a productos
         </router-link>
       </div>
 
@@ -26,9 +26,9 @@
           </div>
           <h2 class="text-2xl font-bold text-gray-800">Categorías</h2>
         </div>
-        <p class="text-gray-600 mb-6">Organice sus productos en diferentes categorías para facilitar la navegación a sus clientes.</p>
+        <p class="text-gray-600 mb-6">Gestionar categorías</p>
         <router-link to="/categories" class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-secondary hover:bg-emerald-600 transition-colors">
-          Gestionar Categorías
+          Ir a categorías
         </router-link>
       </div>
     </div>
